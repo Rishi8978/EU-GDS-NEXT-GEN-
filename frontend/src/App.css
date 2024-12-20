@@ -1,0 +1,64 @@
+/* Add background image to the entire body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('C:\Users\rajav\Desktop\music-player\frontend\public\background.jpg');  /* Path to your background image */
+  background-size: cover;  /* Ensure the image covers the entire screen */
+  background-position: center;  /* Center the image */
+  background-repeat: no-repeat;  /* Avoid repeating the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container with background and content styling */
+.container {
+  background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent black background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: white;  /* Make the header text white */
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.container button {
+  width: 50%;
+  padding: 10px;
+  background-color: #1db954;
+  color: white;  /* Make the button text white */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #1aa34a;
+}
+
+/* Apply white color to the 'Already have an account' and 'Don't have an account' text and buttons */
+.container p {
+  color: white;  /* Make the paragraph text white */
+}
+
+.container button {
+  color: white;  /* Make the button text white */
+}
+
+.container button:hover {
+  background-color: #1aa34a;
+}
